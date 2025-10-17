@@ -29,14 +29,17 @@ html{
 }
 
 .section-container-one{
+  font-family: 'Roboto', sans-serif;
+  padding-top:100px;
+  padding-bottom: 100px;
+  text-align: center;
+  flex-direction: column;
+  font-size: 50px;
   display: flex;
-  background-position: center;
   background-size: cover;
-  max-width: 100%;
-  height: 1080px;
-  background-image: url(./assets/background.png);
+  background-image: url(./assets/background.jpg);
   background-repeat: no-repeat;
-  
+  color: #000;
 }
 
 .section-container-two {
@@ -55,9 +58,9 @@ html{
 
 .question{
   font-weight:bolder;
-  font-size:50px;
-  border-radius: 50px;
-  padding:15px;
+  font-size: 50px;
+  border-radius: 20px;
+  padding: 20px;
   text-align: center;
   background-color: #fcdc00;
 
@@ -137,6 +140,7 @@ button{
 }
 
 footer{
+  padding-top: 50px;
   font-family: "Roboto",'Open Sans', sans-serif;
   color: #fcdc00;
   height: 200px;
